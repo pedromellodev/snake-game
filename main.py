@@ -147,7 +147,7 @@ while True:
 
 # 13
 
-    if snake.xcor() > 200 or snake.xcor() < - 300 or snake.xcor() > 240 or snake.xcor() < -240:
+    if snake.xcor() > 200 or snake.xcor() < - 300 or snake.ycor() > 240 or snake.ycor() < -240:
         time.sleep(1)
         screen.clear()
         screen.bgcolor("turquoise")
