@@ -50,9 +50,13 @@ The most important feature of the game is the possibility to move the snake, let
 
 # 10 - Creating New Foods
 
+When the fruit its gone, we create a new.
+
 # 11 - Setting new fruit position
 
 # 12 - Adding ball to snake shape
+
+When the snake eats the apple, its size is changed.
 
 # 13 - Snake & Border Collision
 
