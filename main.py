@@ -152,7 +152,7 @@ while True:
         screen.clear()
         screen.bgcolor("turquoise")
         scoring.goto(0,0)
-        scoring.write(f" Game Over \n Your Score is {score}", align="center", font=("Courier", 30, "Bold"))
+        scoring.write(f" Game Over \n Your Score is {score}", align="center", font=("Courier", 30, "bold"))
 
     # 14
         
@@ -162,7 +162,7 @@ while True:
             screen.clear()
             screen.bgcolor("turquoise")
             scoring.goto(0,0)
-            scoring.write(f" Game Over \n Your Score is {score}", align="center", font=("Courier", 30, "Bold"))
+            scoring.write(f" Game Over \n Your Score is {score}", align="center", font=("Courier", 30, "bold"))
 
     time.sleep(delay)
 
